@@ -16,7 +16,6 @@ Shader "Custom/Alpha Fill" {
 
             #include "UnityCG.cginc"
 
-            uniform sampler2D _MainTex;
             uniform fixed4 _Color;
 
             struct v2f {
