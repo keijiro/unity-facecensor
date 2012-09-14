@@ -15,8 +15,8 @@ PlayerSettings:
   AndroidLicensePublicKey: 
   defaultScreenWidth: 1024
   defaultScreenHeight: 768
-  defaultScreenWidthWeb: 960
-  defaultScreenHeightWeb: 600
+  defaultScreenWidthWeb: 640
+  defaultScreenHeightWeb: 480
   m_RenderingPath: 1
   m_ActiveColorSpace: 0
   m_MTRendering: 1
@@ -97,7 +97,7 @@ PlayerSettings:
     - m_Icon: {fileID: 0}
       m_Size: 128
   m_BuildTargetBatching: []
-  webPlayerTemplate: APPLICATION:Default
+  webPlayerTemplate: APPLICATION:Black Background
   m_TemplateCustomTags: {}
   wiiRegion: 1
   wiiGameCode: RABA
