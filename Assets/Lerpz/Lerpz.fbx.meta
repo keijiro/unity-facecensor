@@ -1,0 +1,898 @@
+fileFormatVersion: 2
+guid: 55496095b606e4e599a20606631d39c0
+ModelImporter:
+  fileIDToRecycleName:
+    100000: handRight
+    100002: middleFingerLeft4
+    100004: middleFingerLeft3
+    100006: middleFingerLeft2
+    100008: middleFingerLeft1
+    100010: pinkyFingerLeft4
+    100012: pinkyFingerLeft3
+    100014: pinkyFingerLeft2
+    100016: pinkyFingerLeft1
+    100018: //RootNode
+    100020: toeLeftTip
+    100022: thumbLeft3
+    100024: thumbLeft2
+    100026: thumbLeft1
+    100028: handLeft
+    100030: wristLeft
+    100032: elbowLeft
+    100034: indexFingerRight4
+    100036: shoulderLeft
+    100038: indexFingerRight3
+    100040: footLeft
+    100042: toeLeft
+    100044: ankleLeft
+    100046: kneeLeft
+    100048: hipLeft
+    100050: indexFingerRight2
+    100052: toeRightTip
+    100054: middleFingerRight3
+    100056: toeRight
+    100058: footRight
+    100060: indexFingerRight1
+    100062: middleFingerRight4
+    100064: ankleRight
+    100066: kneeRight
+    100068: thumbRight3
+    100070: middleFingerRight2
+    100072: pinkyFingerRight1
+    100074: hipRight
+    100076: mouthBottom2
+    100078: mouthBottom1
+    100080: mouthLeft2
+    100082: mouthLeft1
+    100084: mouthTop2
+    100086: mouthTop1
+    100088: mouthRight2
+    100090: mouthRight1
+    100092: antennaLeft3
+    100094: antennaLeft2
+    100096: antennaLeft1
+    100098: antennaRight3
+    100100: antennaRight2
+    100102: antennaRight1
+    100104: aNTeNNa_trEE
+    100106: indexFingerLeft4
+    100108: head
+    100110: indexFingerLeft3
+    100112: indexFingerLeft2
+    100114: indexFingerLeft1
+    100116: thumbRight1
+    100118: rootJoint
+    100120: elbowRight
+    100122: pinkyFingerRight4
+    100124: pinkyFingerRight3
+    100126: thumbRight2
+    100128: shoulders
+    100130: pinkyFingerRight2
+    100132: Lerpz
+    100134: wristRight
+    100136: shoulderRight
+    100138: middleFingerRight1
+    100140: torso
+    400000: handRight
+    400002: middleFingerLeft4
+    400004: middleFingerLeft3
+    400006: middleFingerLeft2
+    400008: middleFingerLeft1
+    400010: pinkyFingerLeft4
+    400012: pinkyFingerLeft3
+    400014: pinkyFingerLeft2
+    400016: pinkyFingerLeft1
+    400018: //RootNode
+    400020: toeLeftTip
+    400022: thumbLeft3
+    400024: thumbLeft2
+    400026: thumbLeft1
+    400028: handLeft
+    400030: wristLeft
+    400032: elbowLeft
+    400034: indexFingerRight4
+    400036: shoulderLeft
+    400038: indexFingerRight3
+    400040: footLeft
+    400042: toeLeft
+    400044: ankleLeft
+    400046: kneeLeft
+    400048: hipLeft
+    400050: indexFingerRight2
+    400052: toeRightTip
+    400054: middleFingerRight3
+    400056: toeRight
+    400058: footRight
+    400060: indexFingerRight1
+    400062: middleFingerRight4
+    400064: ankleRight
+    400066: kneeRight
+    400068: thumbRight3
+    400070: middleFingerRight2
+    400072: pinkyFingerRight1
+    400074: hipRight
+    400076: mouthBottom2
+    400078: mouthBottom1
+    400080: mouthLeft2
+    400082: mouthLeft1
+    400084: mouthTop2
+    400086: mouthTop1
+    400088: mouthRight2
+    400090: mouthRight1
+    400092: antennaLeft3
+    400094: antennaLeft2
+    400096: antennaLeft1
+    400098: antennaRight3
+    400100: antennaRight2
+    400102: antennaRight1
+    400104: aNTeNNa_trEE
+    400106: indexFingerLeft4
+    400108: head
+    400110: indexFingerLeft3
+    400112: indexFingerLeft2
+    400114: indexFingerLeft1
+    400116: thumbRight1
+    400118: rootJoint
+    400120: elbowRight
+    400122: pinkyFingerRight4
+    400124: pinkyFingerRight3
+    400126: thumbRight2
+    400128: shoulders
+    400130: pinkyFingerRight2
+    400132: Lerpz
+    400134: wristRight
+    400136: shoulderRight
+    400138: middleFingerRight1
+    400140: torso
+    4300000: Lerpz
+    7400000: Take 001 //// rootJoint
+    7400002: Take 001
+    11100000: //RootNode
+    13700000: rootJoint
+  serializedVersion: 10
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    generateAnimations: 1
+    bakeSimulation: 0
+    splitAnimations: 1
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 2
+    clipAnimations: []
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMesh: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  textMetaNamesToFileIDs:
+    //RootNode:
+      data:
+        first: 1
+        second: 2e870100
+      data:
+        first: 4
+        second: 0e1b0600
+      data:
+        first: 111
+        second: 625fa900
+    Lerpz:
+      data:
+        first: 1
+        second: ba870100
+      data:
+        first: 4
+        second: 9a1b0600
+      data:
+        first: 111
+        second: 665fa900
+    aNTeNNa_trEE:
+      data:
+        first: 1
+        second: 64870100
+      data:
+        first: 4
+        second: 441b0600
+      data:
+        first: 111
+        second: 825fa900
+    ankleLeft:
+      data:
+        first: 1
+        second: 36870100
+      data:
+        first: 4
+        second: 161b0600
+      data:
+        first: 111
+        second: 685fa900
+    ankleRight:
+      data:
+        first: 1
+        second: 42870100
+      data:
+        first: 4
+        second: 221b0600
+      data:
+        first: 111
+        second: 745fa900
+    antennaLeft1:
+      data:
+        first: 1
+        second: 5c870100
+      data:
+        first: 4
+        second: 3c1b0600
+      data:
+        first: 111
+        second: 845fa900
+    antennaLeft2:
+      data:
+        first: 1
+        second: 5a870100
+      data:
+        first: 4
+        second: 3a1b0600
+      data:
+        first: 111
+        second: 8a5fa900
+    antennaLeft3:
+      data:
+        first: 1
+        second: 58870100
+      data:
+        first: 4
+        second: 381b0600
+      data:
+        first: 111
+        second: 8c5fa900
+    antennaRight1:
+      data:
+        first: 1
+        second: 62870100
+      data:
+        first: 4
+        second: 421b0600
+      data:
+        first: 111
+        second: 8e5fa900
+    antennaRight2:
+      data:
+        first: 1
+        second: 60870100
+      data:
+        first: 4
+        second: 401b0600
+      data:
+        first: 111
+        second: 905fa900
+    antennaRight3:
+      data:
+        first: 1
+        second: 5e870100
+      data:
+        first: 4
+        second: 3e1b0600
+      data:
+        first: 111
+        second: 925fa900
+    elbowLeft:
+      data:
+        first: 1
+        second: 8a870100
+      data:
+        first: 4
+        second: 6a1b0600
+      data:
+        first: 111
+        second: a65fa900
+    elbowRight:
+      data:
+        first: 1
+        second: b0870100
+      data:
+        first: 4
+        second: 901b0600
+      data:
+        first: 111
+        second: cc5fa900
+    footLeft:
+      data:
+        first: 1
+        second: 34870100
+      data:
+        first: 4
+        second: 141b0600
+      data:
+        first: 111
+        second: 6a5fa900
+    footRight:
+      data:
+        first: 1
+        second: 40870100
+      data:
+        first: 4
+        second: 201b0600
+      data:
+        first: 111
+        second: 765fa900
+    handLeft:
+      data:
+        first: 1
+        second: 86870100
+      data:
+        first: 4
+        second: 661b0600
+      data:
+        first: 111
+        second: aa5fa900
+    handRight:
+      data:
+        first: 1
+        second: ac870100
+      data:
+        first: 4
+        second: 8c1b0600
+      data:
+        first: 111
+        second: d05fa900
+    head:
+      data:
+        first: 1
+        second: 66870100
+      data:
+        first: 4
+        second: 461b0600
+      data:
+        first: 111
+        second: 805fa900
+    hipLeft:
+      data:
+        first: 1
+        second: 3a870100
+      data:
+        first: 4
+        second: 1a1b0600
+      data:
+        first: 111
+        second: 865fa900
+    hipRight:
+      data:
+        first: 1
+        second: 46870100
+      data:
+        first: 4
+        second: 261b0600
+      data:
+        first: 111
+        second: 705fa900
+    indexFingerLeft1:
+      data:
+        first: 1
+        second: 6e870100
+      data:
+        first: 4
+        second: 4e1b0600
+      data:
+        first: 111
+        second: ac5fa900
+    indexFingerLeft2:
+      data:
+        first: 1
+        second: 6c870100
+      data:
+        first: 4
+        second: 4c1b0600
+      data:
+        first: 111
+        second: ae5fa900
+    indexFingerLeft3:
+      data:
+        first: 1
+        second: 6a870100
+      data:
+        first: 4
+        second: 4a1b0600
+      data:
+        first: 111
+        second: b05fa900
+    indexFingerLeft4:
+      data:
+        first: 1
+        second: 68870100
+      data:
+        first: 4
+        second: 481b0600
+      data:
+        first: 111
+        second: b25fa900
+    indexFingerRight1:
+      data:
+        first: 1
+        second: 94870100
+      data:
+        first: 4
+        second: 741b0600
+      data:
+        first: 111
+        second: d25fa900
+    indexFingerRight2:
+      data:
+        first: 1
+        second: 92870100
+      data:
+        first: 4
+        second: 721b0600
+      data:
+        first: 111
+        second: d45fa900
+    indexFingerRight3:
+      data:
+        first: 1
+        second: 90870100
+      data:
+        first: 4
+        second: 701b0600
+      data:
+        first: 111
+        second: d65fa900
+    indexFingerRight4:
+      data:
+        first: 1
+        second: 8e870100
+      data:
+        first: 4
+        second: 6e1b0600
+      data:
+        first: 111
+        second: d85fa900
+    kneeLeft:
+      data:
+        first: 1
+        second: 38870100
+      data:
+        first: 4
+        second: 181b0600
+      data:
+        first: 111
+        second: 885fa900
+    kneeRight:
+      data:
+        first: 1
+        second: 44870100
+      data:
+        first: 4
+        second: 241b0600
+      data:
+        first: 111
+        second: 725fa900
+    middleFingerLeft1:
+      data:
+        first: 1
+        second: 76870100
+      data:
+        first: 4
+        second: 561b0600
+      data:
+        first: 111
+        second: b45fa900
+    middleFingerLeft2:
+      data:
+        first: 1
+        second: 74870100
+      data:
+        first: 4
+        second: 541b0600
+      data:
+        first: 111
+        second: b65fa900
+    middleFingerLeft3:
+      data:
+        first: 1
+        second: 72870100
+      data:
+        first: 4
+        second: 521b0600
+      data:
+        first: 111
+        second: b85fa900
+    middleFingerLeft4:
+      data:
+        first: 1
+        second: 70870100
+      data:
+        first: 4
+        second: 501b0600
+      data:
+        first: 111
+        second: ba5fa900
+    middleFingerRight1:
+      data:
+        first: 1
+        second: 9c870100
+      data:
+        first: 4
+        second: 7c1b0600
+      data:
+        first: 111
+        second: da5fa900
+    middleFingerRight2:
+      data:
+        first: 1
+        second: 9a870100
+      data:
+        first: 4
+        second: 7a1b0600
+      data:
+        first: 111
+        second: dc5fa900
+    middleFingerRight3:
+      data:
+        first: 1
+        second: 98870100
+      data:
+        first: 4
+        second: 781b0600
+      data:
+        first: 111
+        second: de5fa900
+    middleFingerRight4:
+      data:
+        first: 1
+        second: 96870100
+      data:
+        first: 4
+        second: 761b0600
+      data:
+        first: 111
+        second: e05fa900
+    mouthBottom1:
+      data:
+        first: 1
+        second: 4a870100
+      data:
+        first: 4
+        second: 2a1b0600
+      data:
+        first: 111
+        second: 945fa900
+    mouthBottom2:
+      data:
+        first: 1
+        second: 48870100
+      data:
+        first: 4
+        second: 281b0600
+      data:
+        first: 111
+        second: 965fa900
+    mouthLeft1:
+      data:
+        first: 1
+        second: 4e870100
+      data:
+        first: 4
+        second: 2e1b0600
+      data:
+        first: 111
+        second: 985fa900
+    mouthLeft2:
+      data:
+        first: 1
+        second: 4c870100
+      data:
+        first: 4
+        second: 2c1b0600
+      data:
+        first: 111
+        second: 9a5fa900
+    mouthRight1:
+      data:
+        first: 1
+        second: 56870100
+      data:
+        first: 4
+        second: 361b0600
+      data:
+        first: 111
+        second: 9c5fa900
+    mouthRight2:
+      data:
+        first: 1
+        second: 54870100
+      data:
+        first: 4
+        second: 341b0600
+      data:
+        first: 111
+        second: 9e5fa900
+    mouthTop1:
+      data:
+        first: 1
+        second: 52870100
+      data:
+        first: 4
+        second: 321b0600
+      data:
+        first: 111
+        second: a05fa900
+    mouthTop2:
+      data:
+        first: 1
+        second: 50870100
+      data:
+        first: 4
+        second: 301b0600
+      data:
+        first: 111
+        second: a25fa900
+    pinkyFingerLeft1:
+      data:
+        first: 1
+        second: 7e870100
+      data:
+        first: 4
+        second: 5e1b0600
+      data:
+        first: 111
+        second: bc5fa900
+    pinkyFingerLeft2:
+      data:
+        first: 1
+        second: 7c870100
+      data:
+        first: 4
+        second: 5c1b0600
+      data:
+        first: 111
+        second: be5fa900
+    pinkyFingerLeft3:
+      data:
+        first: 1
+        second: 7a870100
+      data:
+        first: 4
+        second: 5a1b0600
+      data:
+        first: 111
+        second: c05fa900
+    pinkyFingerLeft4:
+      data:
+        first: 1
+        second: 78870100
+      data:
+        first: 4
+        second: 581b0600
+      data:
+        first: 111
+        second: c25fa900
+    pinkyFingerRight1:
+      data:
+        first: 1
+        second: a4870100
+      data:
+        first: 4
+        second: 841b0600
+      data:
+        first: 111
+        second: e25fa900
+    pinkyFingerRight2:
+      data:
+        first: 1
+        second: a2870100
+      data:
+        first: 4
+        second: 821b0600
+      data:
+        first: 111
+        second: e45fa900
+    pinkyFingerRight3:
+      data:
+        first: 1
+        second: a0870100
+      data:
+        first: 4
+        second: 801b0600
+      data:
+        first: 111
+        second: e65fa900
+    pinkyFingerRight4:
+      data:
+        first: 1
+        second: 9e870100
+      data:
+        first: 4
+        second: 7e1b0600
+      data:
+        first: 111
+        second: e85fa900
+    rootJoint:
+      data:
+        first: 1
+        second: b8870100
+      data:
+        first: 4
+        second: 981b0600
+      data:
+        first: 111
+        second: 645fa900
+      data:
+        first: 137
+        second: a20bd100
+    shoulderLeft:
+      data:
+        first: 1
+        second: 8c870100
+      data:
+        first: 4
+        second: 6c1b0600
+      data:
+        first: 111
+        second: a45fa900
+    shoulderRight:
+      data:
+        first: 1
+        second: b2870100
+      data:
+        first: 4
+        second: 921b0600
+      data:
+        first: 111
+        second: ca5fa900
+    shoulders:
+      data:
+        first: 1
+        second: b4870100
+      data:
+        first: 4
+        second: 941b0600
+      data:
+        first: 111
+        second: 7e5fa900
+    thumbLeft1:
+      data:
+        first: 1
+        second: 84870100
+      data:
+        first: 4
+        second: 641b0600
+      data:
+        first: 111
+        second: c45fa900
+    thumbLeft2:
+      data:
+        first: 1
+        second: 82870100
+      data:
+        first: 4
+        second: 621b0600
+      data:
+        first: 111
+        second: c65fa900
+    thumbLeft3:
+      data:
+        first: 1
+        second: 80870100
+      data:
+        first: 4
+        second: 601b0600
+      data:
+        first: 111
+        second: c85fa900
+    thumbRight1:
+      data:
+        first: 1
+        second: aa870100
+      data:
+        first: 4
+        second: 8a1b0600
+      data:
+        first: 111
+        second: ea5fa900
+    thumbRight2:
+      data:
+        first: 1
+        second: a8870100
+      data:
+        first: 4
+        second: 881b0600
+      data:
+        first: 111
+        second: ec5fa900
+    thumbRight3:
+      data:
+        first: 1
+        second: a6870100
+      data:
+        first: 4
+        second: 861b0600
+      data:
+        first: 111
+        second: ee5fa900
+    toeLeft:
+      data:
+        first: 1
+        second: 32870100
+      data:
+        first: 4
+        second: 121b0600
+      data:
+        first: 111
+        second: 6c5fa900
+    toeLeftTip:
+      data:
+        first: 1
+        second: 30870100
+      data:
+        first: 4
+        second: 101b0600
+      data:
+        first: 111
+        second: 6e5fa900
+    toeRight:
+      data:
+        first: 1
+        second: 3e870100
+      data:
+        first: 4
+        second: 1e1b0600
+      data:
+        first: 111
+        second: 785fa900
+    toeRightTip:
+      data:
+        first: 1
+        second: 3c870100
+      data:
+        first: 4
+        second: 1c1b0600
+      data:
+        first: 111
+        second: 7a5fa900
+    torso:
+      data:
+        first: 1
+        second: b6870100
+      data:
+        first: 4
+        second: 961b0600
+      data:
+        first: 111
+        second: 7c5fa900
+    wristLeft:
+      data:
+        first: 1
+        second: 88870100
+      data:
+        first: 4
+        second: 681b0600
+      data:
+        first: 111
+        second: a85fa900
+    wristRight:
+      data:
+        first: 1
+        second: ae870100
+      data:
+        first: 4
+        second: 8e1b0600
+      data:
+        first: 111
+        second: ce5fa900
