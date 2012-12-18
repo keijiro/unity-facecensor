@@ -2,20 +2,62 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<title>Unity Web Player | index</title>
-		<script type="text/javascript" src="http://webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/UnityObject.js"></script>
+		<title>Unity Web Player | facecensor</title>
+		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
 		<script type="text/javascript">
 		<!--
-		function GetUnity() {
-			if (typeof unityObject != "undefined") {
-				return unityObject.getObjectById("unityPlayer");
-			}
-			return null;
-		}
-		if (typeof unityObject != "undefined") {
-			unityObject.embedUnity("unityPlayer", "index.unity3d", 640, 480);
+		var unityObjectUrl = "http://webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/UnityObject2.js";
+		if (document.location.protocol == 'https:')
+			unityObjectUrl = unityObjectUrl.replace("http://", "https://ssl-");
+		document.write('<script type="text\/javascript" src="' + unityObjectUrl + '"><\/script>');
+		-->
+		</script>
+		<script type="text/javascript">
+		<!--
+			var config = {
+				width: 640, 
+				height: 480,
+				params: { enableDebugging:"0" }
+				
+			};
+			var u = new UnityObject2(config);
 			
-		}
+			jQuery(function() {
+
+				var $missingScreen = jQuery("#unityPlayer").find(".missing");
+				var $brokenScreen = jQuery("#unityPlayer").find(".broken");
+				$missingScreen.hide();
+				$brokenScreen.hide();
+
+				u.observeProgress(function (progress) {
+					switch(progress.pluginStatus) {
+						case "broken":
+							$brokenScreen.find("a").click(function (e) {
+								e.stopPropagation();
+								e.preventDefault();
+								u.installPlugin();
+								return false;
+							});
+							$brokenScreen.show();
+						break;
+						case "missing":
+							$missingScreen.find("a").click(function (e) {
+								e.stopPropagation();
+								e.preventDefault();
+								u.installPlugin();
+								return false;
+							});
+							$missingScreen.show();
+						break;
+						case "installed":
+							$missingScreen.remove();
+						break;
+						case "first":
+						break;
+					}
+				});
+				u.initPlugin(jQuery("#unityPlayer")[0], "facecensor.unity3d");
+			});
 		-->
 		</script>
 		<style type="text/css">
@@ -45,19 +87,25 @@
 			margin: auto;
 			width: 640px;
 		}
+		div.broken,
 		div.missing {
 			margin: auto;
 			position: relative;
 			top: 50%;
 			width: 193px;
 		}
+		div.broken a,
 		div.missing a {
 			height: 63px;
 			position: relative;
 			top: -31px;
 		}
+		div.broken img,
 		div.missing img {
 			border-width: 0px;
+		}
+		div.broken {
+			display: none;
 		}
 		div#unityPlayer {
 			cursor: default;
