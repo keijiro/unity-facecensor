@@ -3,6 +3,7 @@ Shader "Custom/Alpha Fill" {
         _Color ("Alpha", Color) = (1, 1, 1, 1)
     }
     SubShader {
+        Tags { "Queue" = "Overlay" }
         Pass {
             ZTest Always Cull Off ZWrite Off
             Fog { Mode off }

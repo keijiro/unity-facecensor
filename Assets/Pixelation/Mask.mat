@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Mask
-  m_Shader: {fileID: 4800000, guid: a8bccb4e8beaa4db29b37559d9cedaa8, type: 1}
+  m_Shader: {fileID: 4800000, guid: a8bccb4e8beaa4db29b37559d9cedaa8, type: 3}
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
